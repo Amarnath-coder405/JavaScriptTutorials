@@ -2,6 +2,7 @@ const ListItems = document.querySelectorAll("li");
 
 
 function ToggleButton(e) {
+	console.log("test")
 	if(!e.target.className){
 		e.target.className="done";
 	} else{
