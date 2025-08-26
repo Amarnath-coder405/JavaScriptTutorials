@@ -1,0 +1,56 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;     /* Matches other headings and paragraphs */
+  font-size: 2.5rem;                          /* Big and bold for top-level impact */
+  font-weight: 700;                           /* Strong emphasis */
+  color: #1a1a1a;                             /* Deep neutral for authority */
+  margin-bottom: 30px;                        /* Space below for breathing room */
+  letter-spacing: 1px;                        /* Adds a touch of elegance */
+  text-transform: uppercase;                  /* Optional: for a bold, branded look */
+}
+
+h1 {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;     /* Clean, modern font */
+  font-size: 2rem;                            /* Scalable size for responsiveness */
+  font-weight: 600;                           /* Semi-bold for emphasis */
+  color: #1A1A1A;                             /* Dark neutral for readability */
+  text-transform: uppercase;                 /* Adds a bold, branded feel */
+  letter-spacing: 1.5px;                      /* Slight spacing for elegance */
+  margin-top: 40px;                           /* Generous spacing above */
+  margin-bottom: 20px;                        /* Balanced spacing below */
+  border-bottom: 2px solid #FF6B00;           /* Accent underline in brand color */
+  padding-bottom: 10px;   
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;     /* Matches the heading font for consistency */
+  font-size: 1rem;                            /* Comfortable reading size */
+  line-height: 1.6;                           /* Improves readability */
+  color: #333333;                             /* Slightly lighter than heading for contrast */
+  margin-bottom: 20px;                        /* Space between paragraphs */
+  max-width: 700px;                           /* Keeps line length optimal */
+  letter-spacing: 0.3px;                      /* Subtle polish */
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
+.muted {
+  color: #777;
+  font-style: italic;
+}
