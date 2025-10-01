@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Javascript Header part</h1>
+
+<p id="demo"></p>
+
+<script>
+let header = "Header";
+let tags = ["tags", "java", "english"];
+
+let html = `<h2>${header}</h2><ul>`;
+
+for (const x of tags) {
+  html += `<li>${x}</li>`;
+}
+
+html += `</ul>`;
+document.getElementById("demo").innerHTML = html;
+</script>
+
+</body>
+</html>
